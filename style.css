@@ -1,0 +1,82 @@
+h1, h2 {
+    font-family: Lato;
+  }
+  
+  main{
+    display: flex;
+    gap: 2rem;
+  }
+  
+  header{
+    color:white;
+    position: relative;
+    background-color: green;
+    padding: 0.1rem;
+  
+  }
+  .todo__title{
+    display: flex;
+    text-align: right;
+  }
+  
+  .column{
+  
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+  }
+  
+  .tasks{
+    display: flex;
+    flex-direction: column;
+    width: 11rem;
+    gap:1rem;
+    padding: 2rem;
+  }
+  
+  .create-button{
+    background-color: blueviolet;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: white; 
+    padding: 0.5rem 0.7rem;
+    max-width: fit-content;
+  }
+  
+  .column-board{
+    display: flex;
+  }
+  
+  .task-column{
+    flex: 1;
+  }
+  
+  .Cardcolumn{
+    border: 1px gray;
+    height: 70vh;
+    padding: 0rem;
+    list-style: none;
+  }
+  
+  .arrow{
+    background-color: transparent;
+    align-self: center;
+    border-width: 1px;
+  }
+  
+  .card{
+    background: white;
+    border: 0.1rem solid gray;
+    padding: 0.5rem 1rem;
+  }
+  
+  .selected{
+    color: white;
+    background: blueviolet;
+  }
+  
+  .posts .card{
+    color: black;
+    background: green;
+  }
